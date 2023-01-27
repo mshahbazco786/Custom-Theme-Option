@@ -24,7 +24,6 @@ function theme_options_enqueue_scripts() {
 }
 add_action( 'admin_enqueue_scripts', 'theme_options_enqueue_scripts' );
 
-
 function load_wp_media_files($hook_suffix) {
     // Check if the current menu page is toplevel_page_theme
     if($hook_suffix === 'toplevel_page_theme-option-settings') {
