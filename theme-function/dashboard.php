@@ -34,26 +34,3 @@ function load_wp_media_files($hook_suffix) {
 }
 add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
 
-// add_action("wp_ajax_my_action","data_fetch");
-// add_action("wp_ajax_nopriv_my_action","data_fetch");
-
-// // function data_fetch() {
-// // 	echo 'HELLO WORLD';
-// // 	// die();
-// // }
-
-// // ?>
-<!-- <script>
-// //     function fetch() {
-// //         jQuery.ajax({
-// //             url : 'admin-ajax.php',
-// //             type: 'post',
-// //             data: {
-// //                 action: 'my_action',
-// //             },
-// //             success : function( response ) {
-// //                 jQuery('#datafetch').html(response);
-// //             }
-// //         });     
-// //     }
-// // </script> -->
