@@ -111,8 +111,6 @@ function register_general_theme_option_settings() {
 
 }
 
-
-
 function spk_theme_save_options() {
     // print_r($_POST);
     // exit;
