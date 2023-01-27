@@ -16,11 +16,11 @@ if ( is_admin() ) {
 function theme_options_enqueue_scripts() {
         wp_register_style( 'custom_wp_admin_css', get_template_directory_uri() . '/include/theme-function/css/theme-options.css', false, '1.0.0' );       
         wp_register_script( 'theme-option', get_template_directory_uri() .'/include/theme-function/js/theme-option.js', array('jquery','media-upload','thickbox') );        
-        // if ( get_current_screen() === 'theme-option-settings' ) {
+        if ( get_current_screen() === 'theme-option-settings' ) {
             wp_enqueue_script('jquery'); 
             wp_enqueue_script('theme-option');
             wp_enqueue_style( 'custom_wp_admin_css' );
-        // }
+        }
 }
 add_action( 'admin_enqueue_scripts', 'theme_options_enqueue_scripts' );
 
