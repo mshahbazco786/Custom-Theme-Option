@@ -1,0 +1,61 @@
+.theme-option-wrapper {
+    width: 100%;
+    margin-left: -10px;
+    box-shadow: 2px -5px 15px #c9c9c9;
+    margin-top: 30px;
+}
+
+.theme-option-wrapper header>h1 {
+    color: #fff;
+    padding-left: 10px;
+    margin: 0;
+    display: inline-block;
+}
+
+.theme-option-wrapper header {
+    background: #000;
+    padding: 15px 5px;
+}
+
+.theme-option-wrapper .tabs.theme-option {
+    background: #fff;
+    display: flex;
+}
+
+.theme-option-wrapper .tabs.theme-option>aside {
+    width: 200px;
+}
+
+.theme-option-wrapper .tabs.theme-option>aside button {
+    width: 100%;
+    border: none;
+    padding: 13px 20px;
+    text-align: left;
+    border-bottom: 1px solid #d8d8d8;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.tabPanel-result {
+    width: 100%;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.tabPanel-result p {
+    margin: 0;
+}
+
+.theme-option-wrapper .tabs.theme-option>aside button:last-child {
+    border: none;
+}
+
+.theme-option-wrapper .tabs.theme-option>aside button[aria-selected="true"] {
+    background: #dedede;
+}
+
+.tabPanel-result .sumbit-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
